@@ -2,6 +2,7 @@ package HomWork4.data;
 
 import java.util.List;
 
+// Принцип единственной ответственности (Single Responsibility Principle)
 public class StudentGroup implements Iterable<Student>{
     private List<Student> students;
     private Teacher teacher;

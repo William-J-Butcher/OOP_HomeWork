@@ -6,6 +6,7 @@ import HomWork4.service.TeacherService;
 import HomWork4.view.TeacherView;
 import java.util.List;
 
+//Принцип инверсии зависимостей (Dependency Inversion Principle)
 public class TeacherController {
 
     private final TeacherService teacherService;

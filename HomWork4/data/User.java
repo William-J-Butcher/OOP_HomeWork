@@ -2,6 +2,7 @@ package HomWork4.data;
 
 import java.time.LocalDate;
 
+// Принцип единственной ответственности (Single Responsibility Principle)
 public class User {
     private String firstName;
     private String secondName;

@@ -3,6 +3,7 @@ package HomWork4.data;
 import java.time.LocalDate;
 import java.util.Comparator;
 
+// Принцип единственной ответственности (Single Responsibility Principle)
 public class Teacher extends User{
 
     private Long teacherId;

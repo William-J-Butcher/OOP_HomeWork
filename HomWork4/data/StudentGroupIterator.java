@@ -3,6 +3,7 @@ package HomWork4.data;
 import java.util.Iterator;
 import java.util.List;
 
+// Принцип разделения интерфейсов (Interface Segregation Principle)
 public class StudentGroupIterator implements Iterator<Student> {
 
     private int counter;

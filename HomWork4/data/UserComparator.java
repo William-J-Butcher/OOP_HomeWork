@@ -2,6 +2,7 @@ package HomWork4.data;
 
 import java.util.Comparator;
 
+// Принцип единственной ответственности (Single Responsibility Principle)
 public class UserComparator<T extends User> implements Comparator<T> {
     @Override
     public int compare(T o1, T o2) {

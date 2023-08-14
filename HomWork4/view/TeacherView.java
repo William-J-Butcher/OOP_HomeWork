@@ -4,6 +4,7 @@ import HomWork4.data.Teacher;
 
 import java.util.List;
 
+// Принцип единственной ответственности (Single Responsibility Principle)
 public class TeacherView implements UserView<Teacher>{
     @Override
     public void sendOnConsole(List<Teacher> listT) {

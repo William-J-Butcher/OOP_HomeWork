@@ -6,6 +6,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+// Принцип единственной ответственности (Single Responsibility Principle)
 public class TeacherService {
 
     private final List<Teacher> teachers;

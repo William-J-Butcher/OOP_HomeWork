@@ -2,6 +2,8 @@ package HomWork4.data;
 
 import java.time.LocalDate;
 
+
+// Реализация принципа единственной ответственности (Single Responsibility Principle)
 public class Student extends User implements Comparable<Student>{
     private Long studentId;
 

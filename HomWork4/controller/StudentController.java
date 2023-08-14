@@ -8,6 +8,7 @@ import HomWork4.view.UserView;
 import java.util.List;
 import java.time.LocalDate;
 
+// Реализация принципа единственной ответственности (Single Responsibility Principle)
 public class StudentController implements IUserController{
 
     private UserView studentsView = new StudentView();

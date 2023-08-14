@@ -8,7 +8,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-
+// Принцип единственной ответственности (Single Responsibility Principle)
 public class DataService {
 
     private final List<User> users;

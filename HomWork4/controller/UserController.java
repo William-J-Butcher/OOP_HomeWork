@@ -4,6 +4,7 @@ import HomWork4.data.User;
 
 import java.time.LocalDate;
 
+// Принцип разделения интерфейсов (Interface Segregation Principle)
 public class UserController implements IUserController{
 
     @Override
